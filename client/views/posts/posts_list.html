@@ -1,0 +1,8 @@
+<template name="postsList">
+	<div class="posts">
+		{{#each posts}}
+		<!-- iterating over a 'posts' object with the {{#each}}...{{/each}} block helper -->
+			{{> postItem}}
+		{{/each}}
+	</div>
+</template>
